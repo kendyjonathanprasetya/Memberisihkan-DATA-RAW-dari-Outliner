@@ -1,11 +1,19 @@
-# Memberisihkan-DATA-RAW-dari-Outliner
+<img width="821" height="466" alt="image" src="https://github.com/user-attachments/assets/55670466-1793-414a-969a-7e070903def4" /># Memberisihkan-DATA-RAW-dari-Outliner
 
 # Data Raw
 [Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data%20tiktok%20csv.csv)
 
 # Data Clean
 
-[Download data.csv]9https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data_tiktok_clean.csv)
+[Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data_tiktok_clean.csv)
+
+# Diagram Data Raw
+![Preview](<img width="819" height="441" alt="image" src="https://github.com/user-attachments/assets/4f0034ae-23f5-414a-a32c-b3066fd3cfb7" />)
+
+# Diagram Data Clean
+![Preview](<img width="818" height="446" alt="image" src="https://github.com/user-attachments/assets/a8dcdee5-4972-4247-8ae1-3a86e81ac440" />)
+
+
 
 
 
