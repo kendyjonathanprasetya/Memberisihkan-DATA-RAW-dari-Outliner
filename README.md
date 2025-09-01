@@ -1,5 +1,8 @@
 # Memberisihkan-DATA-RAW-dari-Outliner
 
+##Data Raw
+[Download data.csv](./data.csv)
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
