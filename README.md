@@ -1,7 +1,7 @@
 # Memberisihkan-DATA-RAW-dari-Outliner
 
-##Data Raw
-[Download data.csv](./data.csv)
+# Data Raw
+[Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data%20tiktok%20csv.csv)
 
 
 import pandas as pd
