@@ -6,10 +6,10 @@
 [Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data_tiktok_clean.csv)
 
 # Diagram Data Raw
-![Preview](<img width="819" height="441" alt="image" src="https://github.com/user-attachments/assets/4f0034ae-23f5-414a-a32c-b3066fd3cfb7" />)
+<img width="819" height="441" alt="image" src="https://github.com/user-attachments/assets/4f0034ae-23f5-414a-a32c-b3066fd3cfb7" />
 
 # Diagram Data Clean
-![Preview](<img width="818" height="446" alt="image" src="https://github.com/user-attachments/assets/a8dcdee5-4972-4247-8ae1-3a86e81ac440" />)
+<img width="818" height="446" alt="image" src="https://github.com/user-attachments/assets/a8dcdee5-4972-4247-8ae1-3a86e81ac440" />
 
 
 
