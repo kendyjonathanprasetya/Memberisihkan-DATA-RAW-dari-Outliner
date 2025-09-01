@@ -1,10 +1,8 @@
-<img width="821" height="466" alt="image" src="https://github.com/user-attachments/assets/55670466-1793-414a-969a-7e070903def4" /># Memberisihkan-DATA-RAW-dari-Outliner
 
 # Data Raw
 [Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data%20tiktok%20csv.csv)
 
 # Data Clean
-
 [Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data_tiktok_clean.csv)
 
 # Diagram Data Raw
