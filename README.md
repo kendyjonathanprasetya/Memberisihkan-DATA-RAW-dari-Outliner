@@ -3,6 +3,13 @@
 # Data Raw
 [Download data.csv](https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data%20tiktok%20csv.csv)
 
+# Data Clean
+
+[Download data.csv]9https://github.com/kendyjonathanprasetya/Memberisihkan-DATA-RAW-dari-Outliner/blob/main/data_tiktok_clean.csv)
+
+
+
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
