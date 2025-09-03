@@ -59,55 +59,12 @@ Dalam kasusmu, dipilih cara mengganti outlier (baik terlalu tinggi maupun rendah
 <img width="818" height="446" alt="image" src="https://github.com/user-attachments/assets/a8dcdee5-4972-4247-8ae1-3a86e81ac440" />
 
 
+# 🔧Colab Code
+[Open in Google Colab](https://colab.research.google.com/drive/1f2BvqKjjsJoJy0P-9wPdZBsN4gaiFAKr#scrollTo=foGPKVQh69Kt)
 
 
 
 
-
-import pandas as pd
-import matplotlib.pyplot as plt
-
-
-df = pd.read_csv("data tiktok csv.csv")
-
-
-def iqr_outlier_mask(series):
-    Q1 = series.quantile(0.25)
-    Q3 = series.quantile(0.75)
-    IQR = Q3 - Q1
-    lower = Q1 - 1.5 * IQR
-    upper = Q3 + 1.5 * IQR
-    return (series < lower) | (series > upper)
-
-
-num_cols = ["Views", "Likes", "Comments", "Shares", "AvgViewerAge"]
-
-
-df_clean = df.copy()
-
-
-for col in num_cols:
-    mask = iqr_outlier_mask(df_clean[col])
-    mean_val = df_clean[col][~mask].mean()
-    df_clean.loc[mask, col] = round(mean_val)  # dibulatkan supaya rapi
-
-
-df.to_excel("data_tiktok_raw.xlsx", index=False)
-df_clean.to_excel("data_tiktok_clean.xlsx", index=False)
-
-
-print("=== DATA RAW ===")
-print(df)
-print("\n=== DATA CLEAN (outlier diganti mean) ===")
-print(df_clean)
-
-
-plt.figure(figsize=(12,6))
-plt.bar(df["VideoID"], df["Views"], color="skyblue")
-plt.title("Diagram Batang Views - RAW")
-plt.xlabel("Video ID")
-plt.ylabel("Jumlah Views")
-plt.show()
 
 
 plt.figure(figsize=(12,6))
