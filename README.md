@@ -1,11 +1,11 @@
-📌 Pendahuluan
+# 📌 Pendahuluan
 
 Dalam pengolahan data, sering kali terdapat nilai ekstrem yang jauh berbeda dari pola mayoritas. Nilai ini disebut outlier. Kehadiran outlier bisa mengganggu analisis, membuat rata-rata tidak representatif, dan merusak visualisasi (diagram jadi “melebar” karena skala ekstrem).
 Oleh karena itu, salah satu langkah penting dalam data preprocessing adalah deteksi dan penanganan outlier.
 
 Salah satu metode populer untuk mendeteksi outlier adalah Interquartile Range (IQR).
 
-📌 Penjelasan Metode IQR
+# 📌 Penjelasan Metode IQR
 
 Interquartile Range (IQR) adalah metode berbasis statistik yang memanfaatkan kuartil.
 
@@ -33,7 +33,7 @@ Data < batas bawah → outlier rendah
 
 Data > batas atas → outlier tinggi
 
-📌 Penanganan Outlier
+# 📌 Penanganan Outlier
 
 Ada beberapa cara menangani outlier:
 
